@@ -1,0 +1,12 @@
+const var1= require('./var1');
+const t1 = require("./t1");
+const adlogin = require('./addlogin');
+const arr = require("./arr");
+const arw = require("./arw");
+console.log("company name: ",var1);
+console.log("local.price:",t1(1500,3));
+console.log("adlogin status",adlogin("a@gmail.com","123456"));
+console.log(arr.x("js"));
+console.log(arr.sc("js"));
+console.log(arw.add(10,5));
+console.log(arw.msg());
